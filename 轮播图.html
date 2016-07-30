@@ -97,10 +97,8 @@
 		var oPrev = document.getElementById('prev');
 		var oNext = document.getElementById('next');
 		var nowIdx = 0;//全局变量，存储当前选中的下标
-
 		oImgs.appendChild(aImg[0].cloneNode());
 		oImgs.style.width = aImg.length * aImg[0].offsetWidth + 'px';
-
 		function changeImg(idx){
 			nowIdx = idx;
 			for(var j=0; j<aLi.length; j++){
@@ -147,8 +145,5 @@
 			}, 1000);
 		};
 	</script>
-
-
-
 </body>
 </html>
